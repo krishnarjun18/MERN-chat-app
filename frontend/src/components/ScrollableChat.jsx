@@ -1,6 +1,6 @@
 import React from "react";
 import ScrollableFeed from "react-scrollable-feed";
-import { ChatState } from "../Context/ChatProvider";
+import { ChatState } from "../context/ChatProvider";
 import {
   isLastMessage,
   isSameSender,

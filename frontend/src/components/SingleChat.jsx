@@ -13,7 +13,7 @@ import ScrollableChat from "./ScrollableChat";
 import "./styles.css";
 import Lottie from "react-lottie";
 import { ArrowBackIcon } from "@chakra-ui/icons";
-import { ChatState } from "../Context/ChatProvider";
+import { ChatState } from "../context/ChatProvider";
 import { getSender, getSenderFull } from "../config/Chatlogic";
 import UpdateGroupChatModal from "./miscellaneous/UpdateGroupChatModal";
 import ProfileModal from "./miscellaneous/ProfileModal";
